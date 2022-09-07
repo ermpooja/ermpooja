@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Languages</title>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <span>What languages do you know?</span>
+    <form action="">
+    <div id="controlArea">
+        <input type="checkbox" name="lanRadio" value="radioRussian"><label for="radioRussian">Russian</label><br />
+        <input type="checkbox" name="lanRadio" value="radioEnglish"><label for="radioRussian">English</label><br />
+        <input type="checkbox" name="lanRadio" value="radioSpain"><label for="radioRussian">Spain</label><br />
+        <input type="checkbox" name="lanRadio" value="radioFrench"><label for="radioRussian">French</label><br />
+    </div>
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+        state = "radio";
+    // get all by name and change state
+    var radios = document.getElementsByName('lanRadio');
+    for (i = 0; i < radios.length; i++) {
+        radios[i].type = state;
+    }
+</script>
