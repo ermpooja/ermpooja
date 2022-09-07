@@ -47,7 +47,7 @@ INSERT INTO `services` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (6, 'Factory Scheduled Maintenance', '2022-04-19 16:09:54', '2022-04-19 16:09:54'),
 (7, 'Filter Replacements', '2022-04-19 16:09:54', '2022-04-19 16:09:54'),
 (8, 'Fluid Services', '2022-04-19 16:09:54', '2022-04-19 16:09:54'),
-(9, 'Maintenance Inspections', '2022-04-19 16:09:54', '2022-04-19 16:09:54');
+
 
 --
 -- Indexes for dumped tables
